@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "holidays"
-  s.version = "1.0.5"
+  s.version = "1.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alex Dunae"]
@@ -24,8 +24,10 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "REFERENCES",
     "data/SYNTAX.rdoc",
+    "data/ar.yaml",
     "data/at.yaml",
     "data/au.yaml",
+    "data/be.yaml",
     "data/br.yaml",
     "data/build_defs.rb",
     "data/ca.yaml",
@@ -47,6 +49,7 @@ Gem::Specification.new do |s|
     "data/it.yaml",
     "data/jp.yaml",
     "data/li.yaml",
+    "data/ma.yaml",
     "data/mx.yaml",
     "data/nerc.yaml",
     "data/nl.yaml",
@@ -65,8 +68,10 @@ Gem::Specification.new do |s|
     "holidays.gemspec",
     "lib/holidays.rb",
     "lib/holidays/MANIFEST",
+    "lib/holidays/ar.rb",
     "lib/holidays/at.rb",
     "lib/holidays/au.rb",
+    "lib/holidays/be.rb",
     "lib/holidays/br.rb",
     "lib/holidays/ca.rb",
     "lib/holidays/ch.rb",
@@ -87,6 +92,7 @@ Gem::Specification.new do |s|
     "lib/holidays/it.rb",
     "lib/holidays/jp.rb",
     "lib/holidays/li.rb",
+    "lib/holidays/ma.rb",
     "lib/holidays/mx.rb",
     "lib/holidays/nerc.rb",
     "lib/holidays/nl.rb",
@@ -104,8 +110,10 @@ Gem::Specification.new do |s|
     "lib/holidays/ve.rb",
     "lib/holidays/za.rb",
     "rakefile.rb",
+    "test/defs/test_defs_ar.rb",
     "test/defs/test_defs_at.rb",
     "test/defs/test_defs_au.rb",
+    "test/defs/test_defs_be.rb",
     "test/defs/test_defs_br.rb",
     "test/defs/test_defs_ca.rb",
     "test/defs/test_defs_ch.rb",
@@ -126,6 +134,7 @@ Gem::Specification.new do |s|
     "test/defs/test_defs_it.rb",
     "test/defs/test_defs_jp.rb",
     "test/defs/test_defs_li.rb",
+    "test/defs/test_defs_ma.rb",
     "test/defs/test_defs_mx.rb",
     "test/defs/test_defs_nerc.rb",
     "test/defs/test_defs_nl.rb",

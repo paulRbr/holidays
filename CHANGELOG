@@ -1,5 +1,13 @@
 = Ruby Holidays Gem CHANGELOG
 
+== 1.0.6
+* Add Venezuela's holidays
+* Add Croatian holidays
+* Add Hungarian holidays
+* Add Morocco holidays
+* Add Belgium holidays
+* Add Argentinian holidays
+
 == 1.0.4
 * Add Liechtenstein holiday defs (mercy vielmal Bernhard Furtmueller)
 
